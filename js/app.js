@@ -10,7 +10,7 @@ const submitHandler = function(event){
   const category = event.target.category.value;
 
   //creates new list item to game list to display entries.
-  newItem = document.createElement('p');
+  newItem = document.createElement('li');
   newItem.textContent = `${title} ${developer} ${category}`;
 
   gameList = document.querySelector('#game-list');
