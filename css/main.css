@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#form-item{
+  display: flex;
+  flex-direction: row;
+}
+#form-wrapper{
+  display: flex;
+  flex-direction: row;
+}
+
+#form-item {
+  display: flex;
+}
+
+#game-list {
+  display: flex;
+  list-style-type: none;
+}
